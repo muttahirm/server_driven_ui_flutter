@@ -1,0 +1,39 @@
+{
+  "id": "home",
+  "title": "Home",
+  "widgets": [
+    {
+      "type": "text",
+      "data": {
+        "value": "Welcome to Server Driven UI"
+      }
+    },
+    {
+      "type": "button",
+      "data": {
+        "label": "Open Offers"
+      },
+      "action": {
+        "type": "navigate",
+        "route": "/offers"
+      }
+    },
+    {
+      "type": "column",
+      "children": [
+        {
+          "type": "text",
+          "data": {
+            "value": "Nested child 1"
+          }
+        },
+        {
+          "type": "text",
+          "data": {
+            "value": "Nested child 2"
+          }
+        }
+      ]
+    }
+  ]
+}
